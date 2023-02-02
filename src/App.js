@@ -1,8 +1,12 @@
-import './App.css';
+import Navbar from './components/Navbar';
+import Main from './components/Main';
+import './index.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="bg-[#f0e6ef]">
+      <Navbar></Navbar>
+      <Main></Main>
     </div>
   );
 }
